@@ -13,7 +13,7 @@ Aplicación iOS desarrollada en SwiftUI que permite a los usuarios enviar formul
 - Manejo de errores: Alert con mensaje claro, Opción de reintentar y Manejo de fallos de red/permisos
 
 Problema conocido:
-Actualmente, la aplicación no consigue conectarse correctamente a Supabase -> Error: A TLS error caused the secure connection to fail
+Actualmente, la aplicación no consigue conectarse correctamente a Supabase -> Error: A TLS error caused the secure connection to fail.
 El error ocurre al intentar realizar la inserción en la base de datos. Indica un fallo en la conexión segura (HTTPS/TLS) entre la app y el servidor de Supabase.
 
 Estado actual:
