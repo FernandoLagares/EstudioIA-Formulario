@@ -1,3 +1,5 @@
+# EstudioIA-Formulario
+
 Aplicación iOS desarrollada en SwiftUI que permite a los usuarios enviar formularios con validación, persistencia en Supabase y confirmación de envío.
 
 - Formulario: Campos incluidos -> Título, Descripción, Categoría, Prioridad (1–5) y Email
