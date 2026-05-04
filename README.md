@@ -4,21 +4,13 @@ Aplicación iOS desarrollada en SwiftUI que permite a los usuarios enviar formul
 
 - Formulario: Campos incluidos -> Título, Descripción, Categoría, Prioridad (1–5) y Email
 
-- Validaciones: Título -> 5–60 caracteres
-                Descripción -> 20–500 caracteres
-                Email -> formato válido (@ y .)
-                Prioridad -> obligatoria (1–5)
+- Validaciones: Título -> 5–60 caracteres, Descripción -> 20–500 caracteres, Email -> formato válido (@ y .) y Prioridad -> obligatoria (1–5)
 
-- Control de envío: Botón deshabilitado si hay errores
-                    Estado "Enviando..." durante la petición
-                    Prevención de doble envío
+- Control de envío: Botón deshabilitado si hay errores, Estado "Enviando..." durante la petición y Prevención de doble envío
 
-- Persistencia: Base de datos: Supabase
-                Tabla: formularios
+- Persistencia: Base de datos: Supabase, Tabla: formularios
 
-- Manejo de errores: Alert con mensaje claro
-                     Opción de reintentar
-                     Manejo de fallos de red/permisos
+- Manejo de errores: Alert con mensaje claro, Opción de reintentar y Manejo de fallos de red/permisos
 
 Problema conocido:
 Actualmente, la aplicación no consigue conectarse correctamente a Supabase -> Error: A TLS error caused the secure connection to fail
